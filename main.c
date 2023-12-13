@@ -11,7 +11,7 @@
 #define road_lane_width  3  // road lane width in meters
 #define car_length  5    //average car length in meters  
 #define mid_car_separation  1    //average separation between car in meters while standing at red light 
-#define driver_reaction_time 2   // average driver reaction time in secods, i.e. duration between preceeding pedestrianQueue movement is noticed and pedestrianQueue behind it start accelerating
+#define driver_reaction_time 2   // average driver reaction time in secods, i.e. duration between preceeding car movement is noticed and car behind it start accelerating
 #define car_max_speed        12  // average car speed in m/s , after acelarating car continues to move uniformly at this speed until stop requested
 #define car_acceleration_rate  2 // average accelaration rate in m/s^2  till car reachs car_max_speed
 
