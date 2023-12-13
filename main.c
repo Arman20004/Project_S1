@@ -221,7 +221,7 @@ int report_smart_mode_error(int result)
     switch(result)
     {
         case -1: 
-             printf("Erroe: Bad input file");
+             printf("Error: Bad input file");
              break;   
         case -2: 
              printf("Error: Input file contains event at time point exceeding simulation duration");
